@@ -27,8 +27,8 @@ $("input.form-control").change(() => {
 });
 
 //8-
-$("img").click((e) => {
-  e.target.remove();
+$("img").click(function () {
+  $(this).remove();
 });
 
 /*  
